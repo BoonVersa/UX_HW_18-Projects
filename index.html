@@ -1,0 +1,134 @@
+<style>
+  body {
+  margin: 0;
+}
+section div {
+  justify-content: center;
+}
+.MainSection {
+  border: 1px solid blue;
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fc);
+  grid-gap: 1em;
+  text-align: center;
+  margin: 50px;
+}
+.myArea {
+align-items: center;
+width: 1000px;
+height: 150px;
+border: 1px solid red;
+}
+.one img {
+  margin: 0px 0;
+}
+ .one h3, .one p {
+  margin: 0px 0;
+}
+button {
+  padding:  8px;
+  margin: 0px;
+}
+  header {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    border: 0px solid red; /* added red border */
+    padding: 0px;
+    flex-direction: row;/* added some padding inside the red border */
+    background-color: #454545; /* added light gray background color */
+  }
+ul {
+  display: flex;
+  list-style: none;
+  font-family: 'Gruppo', sans-serif;
+  font-size: 25px;
+}
+li {
+  padding: 0 50px;
+}
+img {
+  width: 90px;
+}
+footer {
+  background-color: #454545;
+  color: white;
+  padding: 00px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  color: white;
+}
+top {
+text-items: center;
+}
+h1 {
+  text-align: center;
+  margins: 50;
+}
+@media screen and (max-width: 767px) {
+  /* CSS styles for mobile screens */
+  .grid-container {
+    grid-template-columns: repeat(1, 1fc);
+    margin: 20px;
+  }
+  .myArea {
+    width: 100%;
+  }
+  ul {
+    font-size: 20px;
+  }
+}
+</style>
+ <!--  My Projects coded using CSS Grid -->
+  </head>
+    <section class="header-nav">
+      <h1>  <img class="logo" src="https://github.com/BoonVersa/UX_UI_HW_17/blob/main/Bpix.png?raw=true" alt="Logo"></h1>
+      <nav>
+        <ul>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Skills</a></li>
+        </ul>
+      </nav>
+    </section>
+<section class="MainSection">
+   <h1>My Projects</h1>
+<div class="grid-container">
+  <div class="myArea">      <img src="image1.jpg" alt="Image">
+      <h3> Buh buh buh </h3>
+      <p>Content for the second project goes here.</p></div>
+  <div class="myArea">      <img src="image1.jpg" alt="Image">
+      <h3> Buh buh buh </h3>
+      <p>Content for the second project goes here.</p></div>
+  <div class="myArea">      <img src="image1.jpg" alt="Image">
+      <h3> Buh buh buh </h3>
+      <p>Content for the second project goes here.</p></div>
+</div>
+</section>
+<footer>
+  <h1>Bb</h1>
+  <nav>
+    <ul style="position: absolute; bottom: 100; right: 0; margin: 0;">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
